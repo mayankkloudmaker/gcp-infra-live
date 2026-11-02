@@ -1,0 +1,7 @@
+name: user-image
+environment: dev
+owner: group:default/platform-engineering
+location: asia-south1
+storage_class: STANDARD
+versioning: true
+delete_after_days: 365
