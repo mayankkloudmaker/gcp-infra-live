@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: payments-raw-data
+  description: GCS bucket (dev) requested via Backstage
+  tags: [gcs, dev]
+spec:
+  type: gcs-bucket
+  owner: group:default/team-payments
+  system: system:default/payments
