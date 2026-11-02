@@ -1,0 +1,4 @@
+name: payments-dev-01
+environment: dev
+owner: group:default/team-payments
+budget_usd: 100
