@@ -1,0 +1,7 @@
+name: payments-raw-data
+environment: dev
+owner: group:default/team-payments
+location: asia-south1
+storage_class: STANDARD
+versioning: true
+delete_after_days: 365
