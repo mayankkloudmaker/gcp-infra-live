@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: product-image
+  description: GCS bucket (qa) requested via Backstage
+  tags: [gcs, qa]
+spec:
+  type: gcs-bucket
+  owner: group:default/platform-engineering
+  system: system:default/payments
